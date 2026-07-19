@@ -10,7 +10,7 @@ authors = [
 dependencies = [
     "flet==0.86.0",
     "requests",
-    "zai"
+    "zai-sdk"
 ]
 
 [dependency-groups]
