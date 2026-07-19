@@ -1,26 +1,26 @@
 [project]
-name = "flet-gha-example"
+name = "star"
 version = "0.1.0"   # Build Version. Update for each new release of your app.
-description = "A simple Flet app, built by GitHub Actions."
+description = "Professional AI-Powered Astrology Readings."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-    { name = "TheEthicalBoy", email = "me@ethicalboy.com" }
+    { name = "Li Jun", email = "50769530@qq.com" }
 ]
 dependencies = [
-    "flet==0.80.6.dev7664"
+    "flet==0.86.0"
 ]
 
 [dependency-groups]
 dev = [
-    "flet[all]==0.80.6.dev7664",
+    "flet[all]==0.86.0",
 ]
 
 # Docs: https://docs.flet.dev/publish
 
 [tool.flet]
 build_number = 1
-product = "Flet GHA Example"
+product = "star"
 
 [tool.flet.app]
 path = "src"
