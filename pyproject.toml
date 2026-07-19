@@ -22,7 +22,7 @@ dev = [
 
 [tool.flet]
 build_number = 1
-product = "star"
+product = "星星点灯"
 
 [tool.flet.app]
 path = "src"
