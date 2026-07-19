@@ -8,7 +8,7 @@ authors = [
     { name = "Li Jun", email = "50769530@qq.com" }
 ]
 dependencies = [
-    "flet==0.86.0"，
+    "flet==0.86.0",
     "requests",
     "zai"
 ]
