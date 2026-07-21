@@ -1,0 +1,28 @@
+flutter_native_splash:
+  # ========== 核心：全屏背景图（铺满屏幕，解决留白、只显示局部）==========
+  # 替换成你的全屏启动图路径，不要用小icon.png当背景
+  background_image: "src/assets/splash_bg.png"
+
+  # 居中小Logo（可选，不需要就直接删除这一行image配置）
+  image: "src/assets/splash_logo.png"
+
+  # 全局缩放规则：全平台铺满不留白
+  android_gravity: fill
+  ios_content_mode: scaleToFill
+  web_image_mode: cover
+
+  # 全屏隐藏状态栏
+  fullscreen: true
+
+  # 深色模式配套（可选，有深色启动图再开启）
+  # background_image_dark: "src/assets/splash_bg_dark.png"
+  # image_dark: "src/assets/splash_logo_dark.png"
+
+  # ========== Android12+ 强制限制（无法全屏大图，只能配色过渡）==========
+  android_12:
+    # 背景色，和你splash_bg.png主色调保持一致，视觉不割裂
+    color: "#222222"
+    # 圆形小图标
+    image: "src/assets/icon.png"
+    # 图标圆形底色
+    icon_background_color: "#222222"
