@@ -1,12 +1,11 @@
 flutter_native_splash:
-  # 你的自定义启动图路径（仓库内相对路径）
   image: src/assets/splash.png
   color: "#ffffff"
-
-  # 深色模式（可选，不需要就删除下面两行）
   image_dark: src/assets/splash.png
   color_dark: "#121212"
+  image_mode: cover
 
   android_12:
     image: src/assets/splash.png
+    image_mode: cover
     icon_background_color: "#ffffff"
