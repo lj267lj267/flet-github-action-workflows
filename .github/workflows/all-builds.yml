@@ -50,7 +50,7 @@ jobs:
 
           - name: apk
             runner: ubuntu-latest
-            build_cmd: "flet build apk --icon src/assets/icon.png"
+            build_cmd: "flet build apk"
             artifact_path: build/apk
             needs_linux_deps: false
 
