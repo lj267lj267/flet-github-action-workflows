@@ -5,7 +5,7 @@ from datetime import datetime, time
 import asyncio
 from zai import ZhipuAiClient
 
-API_BASE = "http://star.lj267.eu.org/api"
+API_BASE = "http://lj267.x3322.net:9000/api"
 CHART_TEXT_GLOBAL = ""
 
 # ========== 智谱 AI 配置 ==========
