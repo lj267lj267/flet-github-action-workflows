@@ -1,6 +1,6 @@
 flutter_native_splash:
   # ========= Android11及以下、iOS：全屏方案 =========
-  background_image: assets/splash_full.png  # 你现在这张完整原图（带文字）
+  background_image: assets/splash.png  # 你现在这张完整原图（带文字）
   background_image_dark: assets/splash.png
   color: "#ffffff"
   color_dark: "#121212"
