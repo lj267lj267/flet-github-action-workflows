@@ -1,11 +1,15 @@
 flutter_native_splash:
-  image: src/assets/splash.png
+  # ========= Android11及以下、iOS：全屏方案 =========
+  background_image: assets/splash_full.png  # 你现在这张完整原图（带文字）
+  background_image_dark: assets/splash.png
   color: "#ffffff"
-  image_dark: src/assets/splash.png
   color_dark: "#121212"
-  image_mode: cover
+  android_gravity: fill
+  ios_content_mode: scaleAspectFill
+  fullscreen: true
 
+  # ========= Android12+ 适配图（正方形罗盘，无底部文字） =========
   android_12:
-    image: src/assets/splash.png
-    image_mode: cover
-    icon_background_color: "#ffffff"
+    image: assets/splash.png
+    image_dark: assets/splash.png
+    icon_background_color: "#121212"
