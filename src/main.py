@@ -8,7 +8,7 @@ API_BASE = "http://lj267.x3322.net:9000/api"
 CHART_TEXT_GLOBAL = ""
 
 # ========== 智谱 AI 配置 ==========
-ZHIPU_API_KEY = "59235725a8cf427e81e3ee91507b19c8.KdkcpxU6eKRjjliQ"  # 请替换为您的真实 API Key
+ZHIPU_API_KEY = "ce18af8e3cdc4a74bfef9a3d922e2bb5.sAdHSmtOEyMkOu0z"  # 请替换为您的真实 API Key
 # =================================
 
 def main(page: ft.Page):
