@@ -123,9 +123,9 @@ def main(page: ft.Page):
             try:
                 client = ZhipuAiClient(api_key=ZHIPU_API_KEY)
                 stream = client.chat.completions.create(
-                    model="glm-4-flash",
+                    model="glm-4.7-flash",
                     messages=messages,
-                    #thinking={"type": "enabled"},
+                    thinking={"type": "disabled"},
                     stream=True,
                     max_tokens=4096,
                     temperature=0.96
