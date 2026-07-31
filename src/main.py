@@ -420,7 +420,7 @@ def main(page: ft.Page):
                     ft.DataCell(ft.Text(orb)),
                 ]))
             aspect_table = ft.DataTable(
-                columns=[ft.DataColumn(ft.Container(ft.Text("星体1"), width=60)),ft.DataColumn(ft.Container(ft.Text("相位"), width=60)),ft.DataColumn(ft.Container(ft.Text("星体2"), width=80)),ft.DataColumn(ft.Container(ft.Text("容许度"), width=90))],
+                columns=[ft.DataColumn(ft.Container(ft.Text("星体1"), width=19)),ft.DataColumn(ft.Container(ft.Text("相位"), width=19)),ft.DataColumn(ft.Container(ft.Text("星体2"), width=26)),ft.DataColumn(ft.Container(ft.Text("容许度"), width=26))],
                 rows=aspect_rows, heading_row_color=ft.Colors.GREY_300, border_radius=8
             )
             aspect_card = ft.Card(content=ft.Container(ft.Column([ft.Text("🔮 主要相位", size=18, weight=ft.FontWeight.W_700), ft.Divider(height=10), aspect_table]), padding=15))
